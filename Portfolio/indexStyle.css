@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+}
+body{
+    color: lightblue;
+    background-color: whitesmoke;
+}
+#p1{
+    color:skyblue;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-top: 75px;
+    margin-left: 200px;
+}
+#p2{
+    color:skyblue;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+nav{
+    text-align: right;
+    font-family: 'Karla', sans-serif;
+    width: 50%;
+    float: right;
+    word-spacing: 25px;
+    margin-right: 30px;
+    border-style: solid;
+    border-color: rgb(196, 226, 237)
+}
