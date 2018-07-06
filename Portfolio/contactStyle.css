@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(175, 185, 200);
+    border-radius: 15px;
+    background-color: whitesmoke;
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 25px;
+    padding: 5px;
+    padding-top: 20px
+}
+#gf{
+    margin-right: 0px;
+    margin-left: 25px;
+    height: 1200px;
+    width: 1000px;
+    background-color: whitesmoke;
+    padding-left: 230px;
+    padding-right: 222px;
+    padding-bottom: 50px;
+    border-radius: 0px 0px 15px 15px;
+    border-color: whitesmoke;
+    border-style: solid;
+}
+a{
+    color: darkgray;
+}
+nav{
+    text-align: right;
+    font-family: 'Karla', sans-serif;
+    width: 95%;
+    float: right;
+    border-radius: 0px 15px 0px 0px;
+    word-spacing: 25px;
+    margin-right: 22px;
+    margin-top: -31px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 25px;
+    padding-bottom: 90px;
+    background-color: whitesmoke;
+}
