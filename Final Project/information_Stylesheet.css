@@ -91,46 +91,36 @@ h2{
     color: rgb(45, 60, 71);
     padding-left: 15px;
     margin-top: -12px;
-    width: 102.5%;
+    width: 50%;
 }
 #p3{
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     float: right;
     color: darkgray;
-    margin-right: -55%;
-    margin-top: -19%;
-    width: 50%;
-    text-align: center;
+    text-align: right;
 }
 #p4{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     float: right;
-    color: rgb(45, 60, 71);
-    padding-left: 15px;
-    margin-top: -12.5px;
-    margin-bottom: 3.5px;
-    width: 46%;
+    color: rgb(45, 60, 71)
+    width: 50%;
     }
 #cell{
-    width: 42.5%;
+    width: 50%;
     float: right;
-    margin-top:-48%;
-    margin-right: -200px;
 }
 #research{
-    width: 42.5%;
-    float: left;
-    margin-left: -43%;
+    width: 70%;
+    display: block;
+    align-content: center;
 }
 #p5{
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     float: left;
     color: darkgray;
-    margin-left: 4.5%;
-    margin-top: 65%;
     width: 45%;
     text-align: center;
 }
@@ -139,12 +129,29 @@ h2{
     font-size: 1.5em;
     color: rgb(45, 60, 71);
     padding-left: 15px;
-    width: 102.5%;
+    margin-top: 8%;
 }
     #info{
         width: 100%;
         margin-left: 5%;
     }
+/* tablets */
+@media only screen and (min-width: 600px) and (max-width:900px){
+    body{
+        background-color: rgb(254, 251, 242);
+        font-size: 50%;
+    }
+    h1{
+    letter-spacing: 20px;
+    padding-bottom: 1%;
+    padding-left: 110px;
+    }
+    #logo{
+    margin-top: -135px;
+    width: 125px;
+    float: left;
+    }   
+}
 /* laptops */
 @media only screen and (min-width: 900px) and (max-width:1200px){
     body{
@@ -161,6 +168,19 @@ h2{
     width: 100px;
     float: left;
     position: absolute;
+    }   
+}
+/* desktops */
+@media only screen and (min-width: 1200px){
+    h1{
+    letter-spacing: 10px;
+    padding-bottom: 0%;
+    padding-left: 250px;
+    }
+    #logo{
+    margin-top: -262px;
+    width: 250px;
+    float: left;
     }   
 }
 /*          FONTS:
