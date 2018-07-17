@@ -135,20 +135,20 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     color: rgb(45, 60, 71);
-    width: 105%;
+    width: 95%;
     margin-top: 10%;
     }
 #email{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     color: rgb(45, 60, 71);
-    width: 105%;
+    width: 95%;
     }
 #message{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     color: rgb(45, 60, 71);
-    width: 105%;
+    width: 95%;
     padding-bottom: 25%;
     }
 #btn{
@@ -161,7 +161,7 @@ a:hover {
     border-radius: 5px;
     color: rgb(254, 251, 242);
     text-align: center;
-    margin-left: 29%;
+    margin-left: 46.5%;
     margin-bottom: 10%;
     }
 #contact{
